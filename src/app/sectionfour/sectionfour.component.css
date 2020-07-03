@@ -1,0 +1,32 @@
+.imageone {
+    background-image: url(/assets/sec.jpg);
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.image {
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.bottom-line {
+    font-size: 35px;
+    color: rgb(67, 169, 255);
+    font-family: "Montserrat";
+    letter-spacing: normal;
+    padding: 300px 0px 00px 70px;
+}
+
+.subline {
+    font-family: "Montserrat";
+    opacity: 0.3;
+    font-size: 13px;
+    line-height: 200%;
+    padding: 0px 0px 70px 70px;
+    width: 70%;
+}
